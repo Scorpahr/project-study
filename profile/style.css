@@ -1,0 +1,66 @@
+/* basics css */
+html {
+  background: linear-gradient(to bottom right, blue, pink);
+}
+
+body {
+  background-color: initial;
+}
+
+h1, h2, h3 {
+  font-family: cursive;
+}
+h1 {
+  font-weight: 900;
+  text-shadow:#ff006e 2.5px 2.5px 0,
+  #8338ec 5px 5px 0,
+  #3a86ff 7.5px 7.5px 0,
+  #333 10px 10px 10px;
+  color:#e6e93a;
+}
+
+img {
+  width: 60vh;
+  border-radius: 4px;
+  padding-bottom: 10px;
+}
+
+/* class css */
+
+.title{
+  background-color: rgb(91, 181, 178);
+  border-radius: 4px;
+  font-size:7vw;
+  font-weight: 600;
+  font-family:'Fredoka One', sans-serif;
+  text-transform:uppercase;
+  display:block;
+  color:#3b3b32;
+  text-shadow: #8100FF #FFEA80 100;
+}
+
+
+.container {
+  width: 100vh;
+  /* background-color: #c2c4ca; */
+  margin: 20px 25vh auto;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.card {
+  background-color: #f8f5f5;
+  margin: 4vh;
+  padding: 15px 10px;
+  border-radius: 5px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.element-align {
+  display: flex;
+
+  align-items: center;
+}
